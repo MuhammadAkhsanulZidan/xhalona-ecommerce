@@ -37,7 +37,7 @@ export default function Home() {
           width={200}
           height={200}
         />
-        <h1 className="mt-4 text-xl text-black">Terimakasih sudah mempercayai Xhalona :)</h1>
+        <h1 className="mt-4 text-l text-black">Terimakasih sudah mempercayai Xhalona :)</h1>
         <h4 className="text-black mt-1 text-sm">
           Tekan <a className="text-pink-700 font-bold cursor-pointer" onClick={handleDownloadClick}>disini</a> apabila aplikasi tidak terunduh otomatis
         </h4>
