@@ -30,14 +30,14 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="z-10 flex flex-col items-center justify-center">
+      <div className="z-10 flex flex-col items-center justify-center m-5">
         <Image
           src="/image_splash.png"
           alt="Download Image"
           width={200}
           height={200}
         />
-        <h1 className="mt-4 text-l text-black">Terimakasih sudah mempercayai Xhalona :)</h1>
+        <h3 className="mt-4 text-l text-black">Terimakasih sudah mempercayai Xhalona 😊</h3>
         <h4 className="text-black mt-1 text-sm">
           Tekan <a className="text-pink-700 font-bold cursor-pointer" onClick={handleDownloadClick}>disini</a> apabila aplikasi tidak terunduh otomatis
         </h4>
