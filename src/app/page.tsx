@@ -41,7 +41,7 @@ export default function Home() {
         <h4 className="text-black mt-1 text-sm">
           Tekan <a className="text-pink-700 font-bold cursor-pointer" onClick={handleDownloadClick}>disini</a> apabila aplikasi tidak terunduh otomatis
         </h4>
-        <h3 className="mt-2 text-black text-l">
+        <h3 className="mt-3 text-black text-l">
           Saran & Pertanyaan? <a className="text-pink-700 font-bold" href="https://wa.me/628170067000">Hubungi Kami</a>
         </h3>
       </div>
