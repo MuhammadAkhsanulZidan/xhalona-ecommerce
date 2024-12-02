@@ -5,17 +5,17 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    window.location.href = "/xhalona.apk";
+    window.location.href = "/xhalon.apk";
   }, []);
 
   const handleDownloadClick = () => {
-    window.location.href = "/xhalona.apk";
+    window.location.href = "/xhalon.apk";
   };
 
   return (
-    <div className="relative bg-white flex flex-col items-center justify-center h-screen font-sans">
+    <div className="relative bg-white flex flex-col items-center justify-center h-full font-sans">
       {/* Top Wave */}
-      <div className="absolute top-0 left-0 w-screen overflow-hidden leading-none">
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
         <svg
           className="relative block w-full h-24"
           xmlns="http://www.w3.org/2000/svg"
