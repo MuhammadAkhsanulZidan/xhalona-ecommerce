@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    window.location.href = "/xhalon.apk";
+    window.location.href = "/Xhalon.apk";
   }, []);
 
   const handleDownloadClick = () => {
