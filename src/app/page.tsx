@@ -9,7 +9,7 @@ export default function Home() {
   }, []);
 
   const handleDownloadClick = () => {
-    window.location.href = "/xhalon.apk";
+    window.location.href = "/Xhalon.apk";
   };
 
   return (
