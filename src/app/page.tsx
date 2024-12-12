@@ -32,7 +32,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="z-10 flex flex-col items-center justify-center m-5">
         <Image
-          src="/image_splash.png"
+          src="/logo-name.svg"
           alt="Download Image"
           width={200}
           height={200}
