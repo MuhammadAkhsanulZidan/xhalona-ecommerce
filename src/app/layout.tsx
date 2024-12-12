@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Xhalona - Beauty & Hair",
+  title: "Xhalon - Beauty & Hair",
 };
 
 export default function RootLayout({
