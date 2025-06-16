@@ -17,7 +17,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="z-10 flex flex-col items-center justify-center m-5">
         <Image
-          src="/logo-full-colered.png"
+          src="/logo-full-colored.png"
           alt="Download Image"
           width={200}
           height={200}
