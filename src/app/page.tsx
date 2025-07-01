@@ -5,11 +5,11 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    window.location.href = "/migor.apk";
+    window.location.href = "/amira.apk";
   }, []);
 
   const handleDownloadClick = () => {
-    window.location.href = "/migor.apk";
+    window.location.href = "/amira.apk";
   };
 
   return (
