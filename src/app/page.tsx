@@ -9,7 +9,7 @@ export default function Home() {
   // }, []);
 
   const handleDownloadClickA = () => {
-    window.location.href = "/amira.apk";
+    window.location.href = "/goods.apk";
   };
 
   const handleDownloadClickL = () => {
@@ -20,14 +20,14 @@ export default function Home() {
     <div className="relative bg-white flex flex-col items-center justify-center h-full font-sans">
       {/* Main Content */}
       <div className="z-10 flex flex-col items-center justify-center m-5">
-        <h3 className="text-md text-black">AMIRA E-COMMERCE</h3>
+        <h3 className="text-md text-black">E-COMMERCE</h3>
         <h4 className="text-black mt-1 text-sm">
-          Tekan <a className="text-pink-700 font-bold cursor-pointer" onClick={handleDownloadClickA}>disini</a>
+          Tekan <button className="bg-green-500 border-none text-white font-bold cursor-pointer" onClick={handleDownloadClickA}>disini</button>
         </h4>
         <div className="h-5"></div>
         <h3 className="text-md text-black">LOGISTIK</h3>
         <h4 className="text-black mt-1 text-sm">
-          Tekan <a className="text-pink-700 font-bold cursor-pointer" onClick={handleDownloadClickL}>disini</a>
+          Tekan <button className="bg-blue-500 border-none text-white font-bold cursor-pointer" onClick={handleDownloadClickL}>disini</button>
         </h4>
       </div>
     </div>
